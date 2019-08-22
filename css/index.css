@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Livvic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Livvic Italic'), local('Livvic-Italic'), url(https://fonts.gstatic.com/s/livvic/v2/rnCr-x1S2hzjrlfXbdM5kn0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Livvic';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Livvic Bold Italic'), local('Livvic-BoldItalic'), url(https://fonts.gstatic.com/s/livvic/v2/rnCs-x1S2hzjrlfXbduCt23BafM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Livvic Regular'), local('Livvic-Regular'), url(https://fonts.gstatic.com/s/livvic/v2/rnCp-x1S2hzjrlfXaOM-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Livvic Bold'), local('Livvic-Bold'), url(https://fonts.gstatic.com/s/livvic/v2/rnCq-x1S2hzjrlff08YutV3G.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Titillium Web Italic'), local('TitilliumWeb-Italic'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPAcZTIAOhVxoMyOr9n_E7fdMbWD6xT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Titillium Web Bold Italic'), local('TitilliumWeb-BoldItalic'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPFcZTIAOhVxoMyOr9n_E7fdMbetIlDYZyZ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Titillium Web Bold'), local('TitilliumWeb-Bold'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzZg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans Extra Condensed';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fira Sans Extra Condensed Italic'), local('FiraSansExtraCondensed-Italic'), url(https://fonts.gstatic.com/s/firasansextracondensed/v4/NaPMcYDaAO5dirw6IaFn7lPJFqXmS-M9Atn3wgda1fqeuF-e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans Extra Condensed';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Fira Sans Extra Condensed Bold Italic'), local('FiraSansExtraCondensed-BoldItalic'), url(https://fonts.gstatic.com/s/firasansextracondensed/v4/NaPxcYDaAO5dirw6IaFn7lPJFqXmS-M9Atn3wgda1fqWA3qOo25_.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans Extra Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fira Sans Extra Condensed Regular'), local('FiraSansExtraCondensed-Regular'), url(https://fonts.gstatic.com/s/firasansextracondensed/v4/NaPKcYDaAO5dirw6IaFn7lPJFqXmS-M9Atn3wgda1f-uvw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Sans Extra Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Fira Sans Extra Condensed Bold'), local('FiraSansExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/firasansextracondensed/v4/NaPPcYDaAO5dirw6IaFn7lPJFqXmS-M9Atn3wgda3USLr3i-pA.ttf) format('truetype');
+}
+h1 {
+  color: green;
+}
