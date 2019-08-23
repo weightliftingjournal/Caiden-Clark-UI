@@ -210,6 +210,56 @@ table {
   font-display: swap;
   src: local('Fira Sans Extra Condensed Bold'), local('FiraSansExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/firasansextracondensed/v4/NaPPcYDaAO5dirw6IaFn7lPJFqXmS-M9Atn3wgda3USLr3i-pA.ttf) format('truetype');
 }
-h1 {
-  color: green;
+html {
+  font-size: 62.5%;
+}
+body {
+  max-width: 100rem;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Titillium Web', sans-serif;
+}
+header {
+  margin: 0 auto;
+  display: flex;
+  height: 15rem;
+  width: 100%;
+  background-image: url(img/victor-freitas-Ovlel6acNac-unsplash.jpg);
+  background-size: 100%;
+}
+header h1 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin: 9.5rem auto;
+  text-shadow: 3px 3px black;
+  line-height: 2.5rem;
+}
+@media (min-width: 500px) {
+  header {
+    height: 20rem;
+  }
+  header h1 {
+    font-size: 3rem;
+    margin: 12rem auto;
+    line-height: 3.5rem;
+  }
+}
+@media (min-width: 800px) {
+  header {
+    height: 33%;
+    width: 100%;
+  }
+  header h1 {
+    font-size: 5rem;
+    margin: 18rem auto;
+    line-height: 6rem;
+  }
 }
