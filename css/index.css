@@ -210,8 +210,23 @@ table {
   font-display: swap;
   src: local('Fira Sans Extra Condensed Bold'), local('FiraSansExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/firasansextracondensed/v4/NaPPcYDaAO5dirw6IaFn7lPJFqXmS-M9Atn3wgda3USLr3i-pA.ttf) format('truetype');
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  max-width: 100rem;
+  margin: 0 auto;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Titillium Web', sans-serif;
+}
 .top-navbar {
   background-color: white;
   display: flex;
@@ -232,25 +247,6 @@ table {
   font-weight: bold;
   font-size: 2.7rem;
   color: #400d82;
-}
-h1 {
-  color: green;
-=======
-html {
-  font-size: 62.5%;
-}
-body {
-  max-width: 100rem;
-  margin: 0 auto;
-  border: 2px solid red;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Titillium Web', sans-serif;
 }
 header {
   margin: 0 auto;
@@ -280,33 +276,29 @@ header h1 {
 }
 @media (min-width: 800px) {
   header {
-    height: 33%;
+    height: 45%;
     width: 100%;
   }
   header h1 {
     font-size: 5rem;
-    margin: 18rem auto;
+    margin: 8rem auto;
     line-height: 6rem;
   }
->>>>>>> 71ffb6b40d7c1c12e2700bebf1e3b0340e88b9fd
-=======
-html {
-  font-size: 62.5%;
 }
 .container {
-  max-width: 50%;
+  max-width: 100%;
   border: solid black 1px;
-  margin: 20px auto;
+  height: 40%;
 }
 .card-section {
   display: flex;
+  height: 100%;
 }
 .card-section div {
   text-align: center;
-  height: 150px;
 }
 .gains {
-  background-color: #9C9898;
+  background-color: #9c9898;
   width: 50%;
 }
 .sign-up {
@@ -315,5 +307,4 @@ html {
 h2 {
   font-size: 2rem;
   padding: 12%;
->>>>>>> 3bb3eb8c9b27c30375529c0c4d4929fb295a617f
 }
