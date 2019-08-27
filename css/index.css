@@ -211,6 +211,7 @@ table {
   src: local('Fira Sans Extra Condensed Bold'), local('FiraSansExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/firasansextracondensed/v4/NaPPcYDaAO5dirw6IaFn7lPJFqXmS-M9Atn3wgda3USLr3i-pA.ttf) format('truetype');
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .top-navbar {
   background-color: white;
   display: flex;
@@ -288,4 +289,31 @@ header h1 {
     line-height: 6rem;
   }
 >>>>>>> 71ffb6b40d7c1c12e2700bebf1e3b0340e88b9fd
+=======
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 50%;
+  border: solid black 1px;
+  margin: 20px auto;
+}
+.card-section {
+  display: flex;
+}
+.card-section div {
+  text-align: center;
+  height: 150px;
+}
+.gains {
+  background-color: #9C9898;
+  width: 50%;
+}
+.sign-up {
+  width: 50%;
+}
+h2 {
+  font-size: 2rem;
+  padding: 12%;
+>>>>>>> 3bb3eb8c9b27c30375529c0c4d4929fb295a617f
 }
