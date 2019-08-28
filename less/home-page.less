@@ -1,3 +1,43 @@
 h1 {
   color: green;
 }
+// Header-Jumbotron //
+
+header {
+    margin: 0 auto;
+    display: flex;
+    height: 15rem;
+    width: 100%;
+    background-image: url(img/victor-freitas-Ovlel6acNac-unsplash.jpg);
+    background-size: 100%;
+
+    h1 {
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        margin: 9.5rem auto;
+        text-shadow: 3px 3px black;
+        line-height: 2.5rem;
+    }
+
+    @media @tablet {
+        height: 20rem;
+        
+        h1 {
+            font-size: 3rem;
+            margin: 12rem auto;
+            line-height: 3.5rem;
+        }
+    }
+
+    @media @desktop {
+        height: 33%;
+        width: 100%;
+
+        h1 {
+            font-size: 5rem;
+            margin: 18rem auto;
+            line-height: 6rem;
+        }
+    }
+}  
