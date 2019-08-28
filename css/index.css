@@ -210,7 +210,22 @@ table {
   font-display: swap;
   src: local('Fira Sans Extra Condensed Bold'), local('FiraSansExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/firasansextracondensed/v4/NaPPcYDaAO5dirw6IaFn7lPJFqXmS-M9Atn3wgda3USLr3i-pA.ttf) format('truetype');
 }
-<<<<<<< HEAD
+html {
+  font-size: 62.5%;
+}
+body {
+  max-width: 100rem;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Titillium Web', sans-serif;
+}
 .top-navbar {
   background-color: white;
   display: flex;
@@ -234,22 +249,6 @@ table {
 }
 h1 {
   color: green;
-=======
-html {
-  font-size: 62.5%;
-}
-body {
-  max-width: 100rem;
-  margin: 0 auto;
-  border: 2px solid red;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Titillium Web', sans-serif;
 }
 header {
   margin: 0 auto;
@@ -267,7 +266,7 @@ header h1 {
   text-shadow: 3px 3px black;
   line-height: 2.5rem;
 }
-@media (min-width: 500px) {
+@media (min-width 500px) {
   header {
     height: 20rem;
   }
@@ -277,7 +276,7 @@ header h1 {
     line-height: 3.5rem;
   }
 }
-@media (min-width: 800px) {
+@media (min-width 800px) {
   header {
     height: 33%;
     width: 100%;
@@ -287,5 +286,27 @@ header h1 {
     margin: 18rem auto;
     line-height: 6rem;
   }
->>>>>>> 71ffb6b40d7c1c12e2700bebf1e3b0340e88b9fd
+}
+.container {
+  max-width: 50%;
+  border: solid black 1px;
+  margin: 20px auto;
+}
+.card-section {
+  display: flex;
+}
+.card-section div {
+  text-align: center;
+  height: 150px;
+}
+.gains {
+  background-color: #9C9898;
+  width: 50%;
+}
+.sign-up {
+  width: 50%;
+}
+h2 {
+  font-size: 2rem;
+  padding: 12%;
 }
