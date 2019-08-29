@@ -328,6 +328,9 @@ header h1 {
   width: 100%;
   height: 50%;
 }
+.sign-up h2 {
+  padding: 0;
+}
 @media (min-width: 800px) {
   .sign-up {
     height: 100%;
