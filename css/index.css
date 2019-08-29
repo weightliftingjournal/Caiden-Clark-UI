@@ -217,6 +217,7 @@ body {
   max-width: 100rem;
   margin: 0 auto;
   border: 2px solid red;
+  background-color: whitesmoke;
 }
 h1,
 h2,
@@ -406,19 +407,52 @@ h2 {
 }
 footer {
   display: flex;
+  flex-direction: column;
+}
+.web-developers {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
 }
 .john {
-  width: 20%;
-  height: 20%;
+  width: 31%;
+  height: 35%;
+  padding: 5%;
 }
 .josh {
-  width: 20%;
-  height: 20%;
+  width: 31%;
+  height: 35%;
+  padding: 5%;
 }
 .caiden {
-  height: 20%;
-  width: 20%;
+  height: 35%;
+  width: 31%;
+  padding: 5%;
 }
 h1 {
   font-size: 4rem;
+}
+.frontend {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.brandon {
+  width: 31%;
+  height: 35%;
+  margin: 3% 4%;
+}
+.tl {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+.anthony {
+  width: 31%;
+  height: 20%;
+  margin: 3% 3%;
+}
+p {
+  font-size: 2rem;
+  margin: 0 2%;
 }
