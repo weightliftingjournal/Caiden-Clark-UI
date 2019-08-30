@@ -1,3 +1,229 @@
+// Header-Jumbotron //
+
+header {
+  margin: 0 auto;
+  display: flex;
+  height: 15rem;
+  width: 100%;
+  background-image: url(img/victor-freitas-Ovlel6acNac-unsplash.jpg);
+  background-size: cover;
+
+  h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 9.5rem auto;
+    text-shadow: 3px 3px black;
+    line-height: 2.5rem;
+  }
+
+  @media @tablet {
+    height: 20rem;
+
+    h1 {
+      font-size: 3rem;
+      margin: 12rem auto;
+      line-height: 3.5rem;
+    }
+  }
+
+  @media @desktop {
+    height: 45%;
+    width: 100%;
+
+    h1 {
+      font-size: 5rem;
+      margin: 15rem auto;
+      line-height: 6rem;
+    }
+  }
+}
+
+// card section  //
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 100%;
+  height: 75%;
+  border: solid 1px black;
+
+  @media @desktop {
+    height: 40%;
+  }
+}
+
+.card-section {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100%;
+
+  @media @desktop {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  @media @tablet {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.card-section div {
+  text-align: center;
+}
+
+.gains {
+  background-color: rgb(109, 109, 109);
+  width: 100%;
+  height: 50%;
+
+  @media @desktop {
+    height: 100%;
+  }
+}
+
+.sign-up {
+  width: 100%;
+  height: 50%;
+
+  @media @desktop {
+    height: 100%;
+  }
+}
+
+.gains,
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+
+  @media @desktop {
+    font-size: 3rem;
+  }
+
+  @media @tablet {
+    font-size: 5rem;
+  }
+}
+
+// about us section //
+.header-about {
+  margin: 0 auto;
+  display: flex;
+  height: 15rem;
+  width: 100%;
+  background-image: url(https://files.slack.com/files-pri/T4JUEB3ME-FMS0JUR36/jelmer-assink-gzetjgu3b_k-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 9.5rem auto;
+    text-shadow: 3px 3px black;
+    line-height: 2.5rem;
+  }
+
+  @media @tablet {
+    height: 20rem;
+
+    h1 {
+      font-size: 3rem;
+      margin: 12rem auto;
+      line-height: 3.5rem;
+    }
+  }
+
+  @media @desktop {
+    height: 45%;
+    width: 100%;
+
+    h1 {
+      font-size: 5rem;
+      margin: 15rem auto;
+      line-height: 6rem;
+    }
+  }
+}
+
+.about-me {
+  margin: 2%;
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  p {
+    font-size: 3rem;
+  }
+}
+
+// developers credits //
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.web-developers{
+display: flex;
+flex-direction: column;
+margin: 2%;
+}
+.john{
+    width: 31%;
+    height: 35%;
+    padding: 5%;
+}
+.josh{
+    width: 31%;
+    height:35%;
+    padding: 5%;
+
+}
+ .caiden{
+     height: 35%;
+     width: 31%;
+     padding: 5%;
+ }
+  
+
+
 h1 {
-    color: green;
+  font-size: 4rem;
+}
+
+
+    
+.frontend{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.brandon{
+    width: 31%;
+    height:35%; 
+    margin: 3% 4%;
+}
+
+.tl{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.anthony{
+   
+    width: 31%;
+    height: 20%;
+    margin: 3% 3%;
+}
+p{
+    font-size:2rem;
+    margin: 0 2%;
 }
