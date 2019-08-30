@@ -268,7 +268,7 @@ header {
   background-position: center center;
 }
 header h1 {
-  font-size: 2rem;
+  font-size: 4rem;
   color: white;
   text-align: center;
   margin: 9.5rem auto;
@@ -280,7 +280,6 @@ header h1 {
     height: 20rem;
   }
   header h1 {
-    font-size: 3rem;
     margin: 12rem auto;
     line-height: 3.5rem;
   }
