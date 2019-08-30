@@ -1,8 +1,8 @@
 [build]
  command = "yarn build"
  functions = "functions"
- publish = "[subdirectory folder name]/build"
- base = "[subdirectory folder name]"
+ publish = "buff/build"
+ base = "buff"
  [[redirects]]
    from = "/*"
    to = "/index.html"
