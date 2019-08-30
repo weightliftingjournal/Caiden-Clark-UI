@@ -232,14 +232,24 @@ h6 {
   display: flex;
   justify-content: flex-end;
   font-size: 2.3rem;
-  padding: 30px 40px;
+  padding: 30px 20px;
   font-family: 'Titillium Web';
   align-items: center;
+}
+@media (min-width: 500px) {
+  .top-navbar {
+    padding: 30px 40px;
+  }
 }
 .top-navbar a {
   text-decoration: none;
   color: black;
-  padding-left: 30px;
+  padding-left: 20px;
+}
+@media (min-width: 500px) {
+  .top-navbar a {
+    padding-left: 30px;
+  }
 }
 .top-navbar a:first-child {
   margin-right: auto;

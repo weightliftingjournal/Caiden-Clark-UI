@@ -3,14 +3,22 @@
   display: flex;
   justify-content: flex-end;
   font-size: 2.3rem;
-  padding: 30px 40px;
+  padding: 30px 20px;
   font-family: 'Titillium Web';
   align-items: center;
+
+  @media @tablet {
+    padding: 30px 40px;
+  }
 
   a {
     text-decoration: none;
     color: black;
-    padding-left: 30px;
+    padding-left: 20px;
+
+    @media @tablet {
+      padding-left: 30px;
+    }
   }
 
   a:first-child {
