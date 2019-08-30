@@ -353,14 +353,9 @@ header h1 {
   justify-content: center;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 12%;
   font-weight: bold;
-}
-@media (min-width: 800px) {
-  h2 {
-    font-size: 3rem;
-  }
 }
 .about-header {
   background-image: url(../img/about-page-header-img.jpg);
